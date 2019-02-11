@@ -61,7 +61,7 @@ body {
     font-weight: 700;
     letter-spacing: 35px;
 
-    animation-name: moveinLeft;
+    animation-name: moveInLeft;
     animation-duration: 5s;
 
 }
@@ -79,6 +79,7 @@ body {
         transform: translateX(-100px);
     }
     80% {
+        transform: translateX(20px);
 
     }
     100% {
